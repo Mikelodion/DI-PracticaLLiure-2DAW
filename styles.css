@@ -1,0 +1,17 @@
+body{
+    background-image: url(img/fondo.jpg);
+}
+nav{
+    box-shadow: inset 0px 0px 324px -24px black;
+    border: 1px;
+    border-radius: 0 0 95px 30px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+}
+#carousel >div{
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 10px black;
+}
