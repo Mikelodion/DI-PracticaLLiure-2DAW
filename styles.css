@@ -1,9 +1,9 @@
 body{
     background-image: url(img/fondo.jpg);
 }
-nav{
+nav, header{
     box-shadow: inset 0px 0px 324px -24px black;
-    border: 1px;
+    border: 2px solid black;
     border-radius: 0 0 95px 30px;
 }
 .content{
@@ -17,6 +17,27 @@ nav{
 }
 footer div{
     box-shadow: inset 0px 0px 324px -24px black;
-    border: 1px;
+    border: 2px solid black;
     border-radius: 95px 95px  0px 0px;
+}
+.card{
+    border: 1px solid black !important;
+    box-shadow: 5px 5px 15px 5px black;
+}
+.card,.card-body,.card-body img{
+    background-image: url("img/cartbackground.jpg");
+    background-size: cover; 
+    border-radius: 8px;
+}
+.card-header{
+    box-shadow: inset 0px 0px 30px 5px black;
+}
+.modal-dialog {
+    max-width: 50% !important;
+}
+.modal-content > * {
+    background-image: url("img/modalwall.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
