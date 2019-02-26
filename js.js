@@ -8,7 +8,7 @@ $(document).ready(function(){
     $("#registerbtn").click(function(){
             $("#registerform").slideDown();
             $('html,body').animate({
-                scrollTop: 800
+                scrollTop: 550
         }, 1000);
     });
 });
